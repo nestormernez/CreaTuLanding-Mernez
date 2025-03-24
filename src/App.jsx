@@ -6,7 +6,7 @@ import NavBar from './components/NavBar'
 function App() {
   let ilcProps = {
     color: "blue",
-    titulo: "Bienvenido a mi primer App"
+    titulo: "Bienvenido a mi primera App"
   }
 
   return (
