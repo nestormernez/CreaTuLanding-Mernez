@@ -1,11 +1,13 @@
 import React from 'react'
 
-const ItemListContainer = ({mensaje}) => {
-    mensaje = 'Bienvenidos a mi primer App'
+const ItemListContainer = ({color , titulo}) => {
+    
     return (
         <div>
-            <h1>{mensaje}</h1>
-        </div>
+            <h1 style={{color:color}}>
+                {titulo}
+            </h1>
+        </div>  
     )
 }
 
